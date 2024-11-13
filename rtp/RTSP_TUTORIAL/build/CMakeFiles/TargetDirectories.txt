@@ -1,0 +1,4 @@
+/home/jyj/workspace/rtp/RTSP_TUTORIAL/build/CMakeFiles/rtsp_server.dir
+/home/jyj/workspace/rtp/RTSP_TUTORIAL/build/CMakeFiles/rtsp_client.dir
+/home/jyj/workspace/rtp/RTSP_TUTORIAL/build/CMakeFiles/edit_cache.dir
+/home/jyj/workspace/rtp/RTSP_TUTORIAL/build/CMakeFiles/rebuild_cache.dir
