@@ -1,5 +1,4 @@
-QT       += core gui
-
+QT       += core gui widgets network
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 CONFIG += c++17
@@ -26,16 +25,15 @@ LIBS += -L/usr/lib/aarch64-linux-gnu -lglib-2.0
 SOURCES += \
     main.cpp \
     mainwindow.cpp \
-    video_thread.cpp
+    streamreceiver.cpp
 
 HEADERS += \
     mainwindow.h \
-    video_thread.h
+    streamreceiver.h
 
-FORMS += \
-    mainwindow.ui
-
-# 배포 설정
+# Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+
+DISTFILES +=

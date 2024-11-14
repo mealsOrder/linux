@@ -35,7 +35,7 @@ HEADERS += \
 FORMS += \
     mainwindow.ui
 
-# 배포 설정
+# Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target

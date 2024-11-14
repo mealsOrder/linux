@@ -26,7 +26,7 @@ LIBS += -L/usr/lib/aarch64-linux-gnu -lglib-2.0
 SOURCES += \
     main.cpp \
     mainwindow.cpp \
-    video_thread.cpp
+    video_thread.cpp \
 
 HEADERS += \
     mainwindow.h \

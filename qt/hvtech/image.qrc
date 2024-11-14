@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>../../Downloads/huntress.jpg</file>
+        <file>../../Downloads/huntress-wizards-past-v0-f13b3wtzw7qb1.jpg</file>
+    </qresource>
+</RCC>
